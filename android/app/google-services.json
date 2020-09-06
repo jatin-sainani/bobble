@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "532949483285",
+    "firebase_url": "https://bobble-e5120.firebaseio.com",
+    "project_id": "bobble-e5120",
+    "storage_bucket": "bobble-e5120.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532949483285:android:0d0299bd92098b6dfb331c",
+        "android_client_info": {
+          "package_name": "com.example.bobble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532949483285-v9b73aboa0d5ld3p2tkbipnfq2n27g4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASs92tLMae0Qn2sA807ODecQUcpf6oOqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532949483285-v9b73aboa0d5ld3p2tkbipnfq2n27g4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
