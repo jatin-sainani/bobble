@@ -6,4 +6,4 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-[Image 1](Screenshots_and_APK/image1.png)
+[Image 1](Screenshots_and_APK/image1.png?raw=true "1")
