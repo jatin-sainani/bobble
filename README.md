@@ -1,16 +1,11 @@
-# bobble
+# Bobble
 
 A new Flutter project.
 
-## Getting Started
+# Flutter
+Flutter is a cross-platform UI toolkit that is designed to allow code reuse across operating systems such as iOS and Android, while also allowing applications to interface directly with underlying platform services
 
-This project is a starting point for a Flutter application.
+<img src="Screenshots_and_APK/image1.png" width="250">
+<img src="Screenshots_and_APK/image2.png" width="250">
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![ezgif-1-f00b9d413ffb](https://user-images.githubusercontent.com/44211699/92336403-c6062c80-f0bd-11ea-92a6-5702babf339b.gif)
