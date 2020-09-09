@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:bobble/chat.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class home extends StatefulWidget
 {
@@ -17,12 +18,14 @@ class _homestate extends State<home>
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+    ScreenUtil.init(context);
     return Scaffold(
       appBar: AppBar(
         title: Text('Bobble',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 30.0,
+            //fontSize: 30.0,
+            fontSize: ScreenUtil().setSp(90.0)
           ),
         ),
         centerTitle: true,
@@ -36,8 +39,10 @@ class _homestate extends State<home>
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
-                width: 300.0,
-                height: 200.0,
+                width: ScreenUtil().setWidth(500.0),
+                height: ScreenUtil().setHeight(500.0),
+                //width: 300.0,
+                //height: 200.0,
                 alignment: Alignment.center,
                 child: Image.asset('assets/logo.png')
             ),
@@ -55,7 +60,9 @@ class _homestate extends State<home>
 
              ),
                  style: TextStyle(color: Colors.black,
-                     fontSize: 20.0),
+                     //fontSize: 20.0
+                   fontSize: ScreenUtil().setSp(60.0)
+                    ),
                  obscureText: false,
              ),
                ),
@@ -63,7 +70,11 @@ class _homestate extends State<home>
             Row(
               children: <Widget>[
                 Padding(
-                  padding: const EdgeInsets.all(20.0),
+                  padding: EdgeInsets.only(
+                      left:ScreenUtil().setWidth(130.0),
+                      right: ScreenUtil().setWidth(45.0),
+                      top:ScreenUtil().setHeight(45.0)
+                  ),
                   child: InkWell(
                       onTap: () {
                         text.add(_controller.text);
@@ -78,8 +89,10 @@ class _homestate extends State<home>
                       },
                       child:
                       new Container(
-                        width: 160.0,
-                        height: 60.0,
+                        //width: 160.0,
+                        //height: 60.0,
+                        width: ScreenUtil().setWidth(360.0),
+                        height: ScreenUtil().setHeight(150.0),
                         alignment: FractionalOffset.center,
                         decoration: new BoxDecoration(
                           color: Colors.teal,
@@ -90,7 +103,8 @@ class _homestate extends State<home>
                           "Send",
                           style: new TextStyle(
                             color: Colors.white,
-                            fontSize: 20.0,
+                            //fontSize: 20.0,
+                            fontSize: ScreenUtil().setSp(60),
                             fontWeight: FontWeight.bold,
                             letterSpacing: 0.3,
                           ),
@@ -99,7 +113,11 @@ class _homestate extends State<home>
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(20.0),
+                  padding: EdgeInsets.only(
+                      left:ScreenUtil().setWidth(45.0),
+                      right: ScreenUtil().setWidth(130.0),
+                      top:ScreenUtil().setHeight(45.0)
+                  ),
                   child: InkWell(
                       onTap: ()
                       {
@@ -115,8 +133,10 @@ class _homestate extends State<home>
                       },
                       child:
                       new Container(
-                        width: 160.0,
-                        height: 60.0,
+                        //width: 160.0,
+                        //height: 60.0,
+                        width: ScreenUtil().setWidth(360.0),
+                        height: ScreenUtil().setHeight(150.0),
                         alignment: FractionalOffset.center,
                         decoration: new BoxDecoration(
                           color: Colors.teal,
@@ -127,7 +147,8 @@ class _homestate extends State<home>
                           "Display",
                           style: new TextStyle(
                             color: Colors.white,
-                            fontSize: 20.0,
+                            //fontSize: 20.0,
+                            fontSize: ScreenUtil().setSp(60),
                             fontWeight: FontWeight.bold,
                             letterSpacing: 0.3,
                           ),

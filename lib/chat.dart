@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 class chat extends StatefulWidget
 {
   List<String> text;
@@ -29,6 +29,7 @@ class _chatState extends State<chat> with SingleTickerProviderStateMixin
 
   @override
   Widget build(BuildContext context) {
+    ScreenUtil.init(context);
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
